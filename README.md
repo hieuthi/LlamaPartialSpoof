@@ -1,10 +1,14 @@
 # 🦙 LlamaPartialSpoof
 
-[📄 Preprint](https://arxiv.org/abs/2409.14743) | [📢 Speech Samples](https://hieuthi.github.io/sample-LlamaPartialSpoof/)
+[📄 Preprint](https://arxiv.org/abs/2409.14743) | [📢 Speech Samples](https://hieuthi.github.io/sample-LlamaPartialSpoof/) | [⬇️ Download](https://zenodo.org/records/14214149)
 
 This is the official repository of the LlamaPartialSpoof Project.
-The dataset and more useful information will be updated eventually.
-In the meantime, please checkout the preprint paper and the speech samples.
+The dataset is ready for download from zenodo.
+Do follow this repository for updates on more useful resource and information about the LlamaPartialSpoof project and partialluy fake speech in general.
+
+## Have an issue?
+If you have any question or feedback, feel free to create an issue in this repository.
+It may take us sometimes to get back to you but the community can also help.
 
 
 ## Citations
