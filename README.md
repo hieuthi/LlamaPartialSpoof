@@ -8,16 +8,30 @@ Stay updated on the latest resources and information about the LlamaPartialSpoof
 ## Updates
 - 2025-01-07 The paper "LlamaPartialSpoof: An LLM-Driven Fake Speech Dataset Simulating Disinformation Generation" is accepted, we will give a presentation on this topic at ICASSP 2025 in Hyderabad, India around April 6 to 11, 2025
 
+
+## FAQ
+### 01. Baseline detection models
+We released the source code and the pretrained model used in the paper in [this repository](https://github.com/hieuthi/MultiResoModel-Simple)
+
+
+### 02. How should the data be used?
+- LlamaPartialSpoof was designed for evaluation hence we didn't provided training data. We want researchers to develop a system that either trained on a third-party dataset (e.g. PartialSpoof) or using a non-training method so it can generalize to real life scenarios.
+- However if you want to train on the dataset, we suggest using k-fold to split the speakers and the method for training, validating, and testing.
+
+
 ## Have a question?
 If you have any question or feedback, feel free to create [a new issue](https://github.com/hieuthi/LlamaPartialSpoof/issues) in this repository.
 It may take sometimes for us to get back but we love to connect with the research community on this topic.
 
+
 ## Citations
 ```
-@article{luong2024llamapartialspoof,
+@inproceedings{luong2025llamapartialspoof,
   title={LlamaPartialSpoof: An LLM-Driven Fake Speech Dataset Simulating Disinformation Generation},
   author={Luong, Hieu-Thi and Li, Haoyang and Zhang, Lin and Lee, Kong Aik and Chng, Eng Siong},
-  journal={arXiv preprint arXiv:2409.14743},
-  year={2024}
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE}
 }
 ```
