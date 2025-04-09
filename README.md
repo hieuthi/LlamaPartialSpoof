@@ -18,6 +18,8 @@ Stay updated on the latest resources and information about the LlamaPartialSpoof
 - LlamaPartialSpoof was designed for evaluation hence we didn't provided training data. We want researchers to develop a system that either trained on a third-party dataset (e.g. PartialSpoof) or using a non-training method so it can generalize to real life scenarios.
 - However if you want to train on the dataset, we suggest using k-fold to split the speakers and the method for training, validating, and testing.
 
+### 02. Baseline mode
+- I prepared a baseline system with the processing pipeline to benchmark this dataset at [MultiResoModel (Simple)](https://github.com/hieuthi/MultiResoModel-Simple)
 
 ## Have a question?
 If you have any question or feedback, feel free to create [a new issue](https://github.com/hieuthi/LlamaPartialSpoof/issues) in this repository.
