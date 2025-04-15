@@ -21,6 +21,9 @@ Stay updated on the latest resources and information about the LlamaPartialSpoof
 ### 02. Baseline mode
 - I prepared a baseline system with the processing pipeline to benchmark this dataset at [MultiResoModel (Simple)](https://github.com/hieuthi/MultiResoModel-Simple)
 
+### 03. Modified transcipts
+- The original `dev-clean` transcript and the modified `dev01` transcripts are included in this repository
+
 ## Have a question?
 If you have any question or feedback, feel free to create [a new issue](https://github.com/hieuthi/LlamaPartialSpoof/issues) in this repository.
 It may take sometimes for us to get back but we love to connect with the research community on this topic.
